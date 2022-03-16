@@ -22,6 +22,59 @@
       </div>
     </header>
     <main>
+      <form>
+        <label for="nomeesobrenome">
+          Nome e sobrenome
+          <input type="text" id="nomeesobrenome" class="input-padrao">
+        </label>
+
+        <label for="email">
+          E-mail
+          <input type="email" id="email" class="input-padrao">
+        </label>
+
+        <label for="telefone">
+          Telefone
+          <input type="tel" id="telefone" class="input-padrao">
+        </label>
+
+        <label for="mensagem">
+          <Mensagem>
+            Mensagem
+          </Mensagem>
+        </label>
+        <textarea cols="30" rows="10" id="mensagem" class="input-padrao"></textarea>
+
+        <div>
+          <p>Como prefere o ser contatado</p>
+          <label for="radio-email">
+            <input type="radio" name="contato"value="email" id="radio-email">
+            Email
+          </label>
+
+          <label for="radio-telefone">
+            <input type="radio" name="contato" value="telefone" id="radio-telefone">
+            Telefone
+          </label>
+
+          <label for="radio-whatspp">
+            <input type="radio" name="contato" value="telefone" id="radio-whatspp">
+            Whatsapp
+          </label>
+        </div>
+
+        <div>
+          <p>Qual o horário preferencial de atendimento</p>
+          <select>
+            <option>Manhã</option>
+            <option>Tarde</option>
+            <option>Noite</option>
+          </select>
+        </div>
+
+        <label class="checkbox"><input type="checkbox">Gostaria de receber nossas novidades?</label>
+        <input type="submit" value="Enviar formulário">
+      </form>
     </main>
     <footer>
       <img src="imagens/logo-branco.png">
